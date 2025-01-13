@@ -1,6 +1,6 @@
 "use server"
 import { GoogleGenerativeAI } from "@google/generative-ai";
-const api_key = process.env.GEMINI_API_SECRET;
+const api_key:any = process.env.GEMINI_API_SECRET;
 
 console.log("google api key",api_key);
 

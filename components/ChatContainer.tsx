@@ -143,7 +143,7 @@ const renderMessages = (
 export default function ChatContainer({
   messagesTree,
   onUpdateMessage,
-}: ChatContainerProps) {
+}: any) {
   const [editingMessageId, setEditingMessageId] = useState<string | null>(null);
   const [editedContent, setEditedContent] = useState<string>("");
 
