@@ -4,7 +4,7 @@ const api_key:any = process.env.GEMINI_API_SECRET;
 
 console.log("google api key",api_key);
 
-const genAI = new GoogleGenerativeAI(api_key);
+const genAI = new GoogleGenerativeAI(api_key!);
 
 const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 const prompt = "Explain how AI works";
