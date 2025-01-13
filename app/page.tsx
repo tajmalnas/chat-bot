@@ -9,7 +9,7 @@ import InputField from "@/components/InputField";
 // import { getConversations } from "../lib/conversations";
 import { createClient } from "@/utils/supabase/client";
 import { createConversation, EditMessage, getAllMessagesForConversation, getConversationById, getConversations, getFirstId, sendAnswer, sendQuestion } from "@/lib/conversations";
-import { generateAiResponse } from "@/gemini_ai";
+import { generateAiResponse } from "@/ai";
 import { findLeftmostChild, transformToIdTree } from "@/lib/helper";
 
 interface Conversation {
